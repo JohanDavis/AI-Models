@@ -27,7 +27,7 @@ while True:
     newW = new_w(w, b, alpha, m, x, y)
     newB = new_b(w, b, alpha, m, x, y)
 
-    if abs(newW - w) < 1e-11:
+    if abs(newW - w) < 1e-10 and abs(newB - b) < 1e-10:
         break
 
     w = newW
