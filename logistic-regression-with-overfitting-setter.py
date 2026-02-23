@@ -4,6 +4,11 @@ import numpy as np
 #            Exercise (0=Low, 1=Med, 2=High), Smoking, Family_Heart_Disease,
 #            Diabetes, BMI, High_Blood_Pressure, Alcohol (0=None/Low, 1=Med, 2=High),
 #            Stress (0=Low, 1=Med, 2=High), Sleep_Hours, Triglyceride, CRP_Level]
+
+
+
+
+# IMP: Test Data is GARRRRBAGE! yeah so ai is shit...
 x = np.array([
     [56, 1, 153, 155, 2, 1, 1, 0, 24.9916, 1, 2, 1, 7.6332, 342, 12.9692],
     [69, 0, 146, 286, 2, 0, 1, 1, 25.2218, 0, 1, 2, 8.7440, 133, 9.3554],
